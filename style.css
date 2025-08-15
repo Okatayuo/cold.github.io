@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0; 
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+}
+h1 {
+    margin: 80px 142px;
+}
+.header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+.top_header {
+    display: flex;
+    margin: 20px 64px;
+    text-align: center;
+    align-items: center;
+}
+.header a {
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.menu {
+    justify-content: center;
+}
+.menu_left {
+    margin-left: 10px;
+}
+.menu_right {
+    margin-left: 17%;
+}
+.logo {
+    margin-left: 28%;
+}
+.banner img{
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+}
+.text {
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20%;
+    font-size: 32px;
+}
+.box_item {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 4%;
+    padding: 60px 0;
+}
+.box_item h2 {
+    color: white;
+    font-size: medium;
+}
+.box_item p {
+    color: gray;
+    margin-top: -5px;
+}
+.arrow {
+    margin: 10% 0;
+}
+.bestseller p {
+    padding: 0;
+    color: black;
+    margin-top: -15px;
+}
+.bestseller_part {
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+}
+.shop_the_look img{
+    justify-content: center;
+    width: 100%;
+}
+.footer {
+    background-color: black;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    color: white;
+    padding: 60px 0;
+}
+.footer p {
+    margin-top: -10px;
+    margin-left: 140px;
+    padding-bottom: 30px;
+    color: gray;
+}
+.footer h3 {
+    margin-left: 140px;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+    margin-left: 140px;
+    display: flex;
+    padding-top: 7px;
+}
+.left_link {
+    position: absolute;
+}
+.right_link {
+    margin-left: 20%;
+    position: relative;
+    margin-right: 53%;
+}
+.form {
+    margin-left: 60%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+input {
+    height: 40px;
+    margin-top: 10px;
+    display: block;
+    outline: none;
+}
+input[type=email] {
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    padding-left: 20px;
+
+}
+input[type=submit] {
+    border-radius: 15px;
+    width: 240px;
+    height: 43px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: black;
+    border: none;
+}
